@@ -1,4 +1,4 @@
-from fizzbuzz import fizzbuzz_convert(number)
+from fizzbuzz import fizzbuzz_convert
 
-if number in range(1,101):
-    print(number)
+for number in range(1,101):
+    print(fizzbuzz_convert(number))
